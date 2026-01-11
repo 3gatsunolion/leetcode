@@ -6,6 +6,7 @@ class Solution:
         for i in range(0, n - 2):
             if i > 0 and nums[i-1] == nums[i]:
                 continue
+            if nums[i] > 0: break
             l, r = i + 1, n - 1
             while l < r:
                 sumVal = nums[i] + nums[l] + nums[r]
