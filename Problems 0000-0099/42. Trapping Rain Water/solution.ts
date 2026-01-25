@@ -26,7 +26,7 @@ function trap(height: number[]): number {
         // taller based on the other larger maxSoFar. This is because
         // we know the true maxHeight from this point to the other side
         // will have to be AT LEAST maxSoFar, and we need the minimum
-        // maxLeft and max/right, so we know how much money is trapped
+        // maxLeft and maxRight, so we know how much water is trapped
         // just from the one maxSoFar. But it has to be on the smaller
         // maxSoFar side, it won't work other side, since we don't know
         // if there's a larger maxSoFar on the other side that hasn't
