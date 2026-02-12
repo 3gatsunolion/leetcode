@@ -31,7 +31,7 @@ class Solution:
 
     # 2. Day-Stout-Warren (DSW) Algorithm / In-Place Balancing
     # Time: O(n)
-    # Space: O(n)
+    # Space: O(1)
     def balanceBST(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         def make_vine(dummy):
             if not dummy.right:
